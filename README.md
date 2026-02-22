@@ -36,3 +36,12 @@ O fluxo do projeto é dividido em duas etapas principais:
 ---
 
 ## 🧠 Exemplo de Busca
+
+Buscando por: "hacker"
+
+Resultados encontrados:
+
+Matrix
+Similaridade: 0.8565
+Gênero: Ação / Ficção Científica
+Um hacker descobre que o mundo real é uma simulação criada por máquinas...
