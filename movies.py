@@ -10,7 +10,7 @@ import time  # 👈 importa o módulo de tempo
 # ========================
 # CONFIGURAÇÕES
 # ========================
-PINECONE_API_KEY = "pcsk_6vD99L_QtRtaygMMp7ySFmcAKi5UAKJ6p6AfqszK15wu7RcSAmwos3AA1NiDjCjZFrBoC"
+PINECONE_API_KEY = "sua_chave_aqui"
 INDEX_NAME = "movies-1000d"
 DIMENSION = 384
 
@@ -111,3 +111,4 @@ pesquisar_filmes("hacker")
 pesquisar_filmes("Interestelar")
 pesquisar_filmes("Filme sobre navio")
 pesquisar_filmes("Filme de terror")
+
