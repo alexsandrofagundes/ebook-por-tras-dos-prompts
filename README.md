@@ -1,47 +1,56 @@
-# 🎬 Movie Semantic Search com Pinecone
+# 📘 eBook: Por Trás dos Prompts
 
-Projeto de busca semântica utilizando embeddings e indexação vetorial com Pinecone.
+Um guia prático sobre como funcionam prompts, embeddings, busca semântica e aplicações reais com IA.
 
-Este projeto demonstra como transformar dados estruturados (filmes) em embeddings vetoriais e realizar buscas inteligentes baseadas em similaridade semântica.
+Este repositório contém o projeto prático utilizado como demonstração no eBook.
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🎯 Sobre o eBook
 
-- Python 3.x
-- Pinecone (Vector Database)
+O eBook **"Por Trás dos Prompts"** explica:
+
+- Como funcionam embeddings
+- O que é busca vetorial
+- Diferença entre busca tradicional e busca semântica
+- Como integrar IA com bancos vetoriais
+- Conceitos de RAG (Retrieval-Augmented Generation)
+
+Este projeto é a aplicação prática desses conceitos.
+
+---
+
+# 🎬 Projeto Prático: Movie Semantic Search com Pinecone
+
+Projeto demonstrando busca semântica com:
+
+- Python
+- Pinecone
 - Sentence Transformers
-- python-dotenv
 
----
+O sistema:
 
-## 📌 Como Funciona
-
-O fluxo do projeto é dividido em duas etapas principais:
-
-### 1️⃣ Indexação (`index_movies.py`)
-
-- Criação ou conexão com um índice no Pinecone
-- Carregamento da base de filmes
-- Geração de embeddings (título + gênero + resumo)
-- Envio dos vetores para o Pinecone
-
-### 2️⃣ Busca Semântica (`movies.py`)
-
-- Recebe um termo de busca (simulando um prompt)
-- Converte o termo em embedding
-- Realiza busca vetorial no índice
-- Retorna os filmes mais similares com base na similaridade semântica
+1. Gera embeddings a partir de filmes (título + gênero + resumo)
+2. Indexa os vetores no Pinecone
+3. Realiza buscas semânticas simulando um prompt
+4. Retorna os filmes mais similares com base em proximidade vetorial
 
 ---
 
 ## 🧠 Exemplo de Busca
 
-Buscando por: "hacker"
+Buscando por: `"hacker"`
 
-Resultados encontrados:
+Resultado:
 
-Matrix
-Similaridade: 0.8565
-Gênero: Ação / Ficção Científica
-Um hacker descobre que o mundo real é uma simulação criada por máquinas...
+- Matrix (alta similaridade)
+- O Senhor dos Anéis
+- Avatar
+
+A busca ocorre por significado, não apenas por palavras exatas.
+
+---
+
+## 🚀 Como Executar
+
+(segue instruções técnicas...)
