@@ -8,7 +8,7 @@ import os
 import time  # 👈 importa o módulo de tempo
 
 # =============== CONFIGURAÇÃO ===============
-API_KEY = "pcsk_6vD99L_QtRtaygMMp7ySFmcAKi5UAKJ6p6AfqszK15wu7RcSAmwos3AA1NiDjCjZFrBoC"
+API_KEY = "sua_chave_aqui"
 INDEX_NAME = "movies-index"
 DIMENSION = 1000  # tamanho do vetor (número de dimensões)
 REGION = "us-east-1"  # pode ajustar conforme a sua conta
@@ -81,3 +81,4 @@ for match in results["matches"]:
     print(f"🎞️ {match['metadata']['title']} ({match['metadata']['year']}) - Score: {match['score']:.3f}")
 
 print("\n🏁 Finalizado com sucesso!")
+
