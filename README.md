@@ -51,6 +51,6 @@ A busca ocorre por significado, não apenas por palavras exatas.
 
 ---
 
-## 🚀 Como Executar
+## 🚀 eBook Amazon
 
-(segue instruções técnicas...)
+Link Amazon: https://a.co/d/014RsEVo
