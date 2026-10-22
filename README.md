@@ -25,7 +25,7 @@ Este projeto é a aplicação prática desses conceitos.
 Projeto demonstrando busca semântica com:
 
 - Python
-- Pinecone
+- Pinecone  -> https://www.pinecone.io/
 - Sentence Transformers
 
 O sistema:
